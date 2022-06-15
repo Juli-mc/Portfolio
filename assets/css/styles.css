@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* @media only screen and (min-width : 321px) {
+    body
+    ul
+    .navbar
+    .fondo
+    .Cabeza
+    .Contacto
+}
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #ffff;
+}
+ul{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 5rem;
+    padding: 2rem;
+    color: #03051C;
+}
+
+
+.navbar{
+    border-bottom: 8px solid #03051C;
+
+}
+
+
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.menu .menu-i{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.menu .menu-i:hover{
+    color: black;
+}
+
+.menu-btn{
+    font-size: 30px;
+    color:#03051C;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.fondo{
+    
+    background-image: url(./fondo4.png);
+    background-repeat: no-repeat;
+   min-width: 200px;
+}
+
+
+.Cabeza{
+    position: absolute;
+    right: -8rem;
+    gap: -1rem;
+    
+}
+
+.tres-años h2{
+    color: #2A2B3D;
+    font-size: 48px;
+    font-style: normal;
+    justify-content: flex-end;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    
+    
+}
+.tres-años p{
+    font-size: 30px;
+    justify-content: flex-end;
+    color: #2A2B3D;
+    bottom: -50rem;
+    
+}
+
+.tres-años{
+   text-align: left;
+   justify-content: flex-end; 
+   position: absolute;
+   left: -15rem;
+   top: -15rem;
+
+}
+
+.Experiencia{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+    position: absolute;
+    left: -15rem;
+    top: -7rem;
+}
+
+.Xp{
+    border: 20px solid #d1cec9;
+    background-color: #d1cec9;  
+    border-radius: 100px;  
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.circle {
+    width: 650px; 
+    height: 620px;
+    border-radius: 50%;
+    background-color: #808080;
+    margin: auto;
+    position: relative;
+}
+
+.present h1{
+    text-align: left;
+    font-size: 90px;
+    margin-left: -70rem;
+    
+}
+
+.present h2{
+    text-align: left;
+    font-size: 50px;
+    gap: 2rem;
+    margin-left: -25rem;
+}
+
+
+.Man{
+    position: absolute;
+    left: 14%;
+    right: 14%;
+    bottom: 90px;
+    image-resolution: 500%;
+}
+.Cabezado {
+    display: flex;
+    gap: 8rem;
+    border: 10px solid #808080;
+    border-top: 5px;
+    border-bottom: 5px;
+    background-color: #808080;
+    border-radius: 10px;
+    width: 60rem;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position: absolute;
+    bottom: -25%;
+    right: -25%;
+}
+
+.Icons {
+   
+   border: 10px solid #d1cec9;
+   border-radius: 10px;
+   background-color: #d1cec9;
+   width: 50%;
+   
+}
+
+main {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+li:hover{
+    border-bottom: 2px solid #34B0BE ;
+}
+h1{
+    font-size: 3rem;
+    color: #34B0BE;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #03051C;
+}
+.Sobre-Mi p{
+    color: #2A2B3D;
+    justify-content: center;
+    line-height: 2.0rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    margin-bottom: 7%;
+   
+}
+
+.Sobre-Mi{
+    margin-top: 11%;
+    
+}
+section { /*AQUI ESTOY PONIENDO QUE TODOS LOS ELEMENTOS QUE ESTAN DENTRO DE SECTION SE PONGAN CENTRADOS*/
+    text-align: center;
+}
+
+
+.Servicios{
+   display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin: 70px;
+}
+
+
+.Contenedor-Ux{
+    border: 15px solid #808080;
+    background-color: #d1cec9;
+    border-radius: 15px;
+    color: #03051C;
+    width: 18rem;
+    padding: 18px;
+    
+}
+
+.Contenedor-Marketing{
+    border: 15px solid #808080;
+    background-color: #d1cec9;
+    border-radius: 15px;
+    color: #03051C;
+    width: 18rem;
+    padding: 18px;
+}
+
+.Contenedor-Research{
+    border: 15px solid #808080;
+    background-color: #d1cec9;
+    border-radius: 15px;
+    color: #2A2B3D;
+    width: 18rem;
+    padding: 18px;
+
+}
+
+.Conocimientos{
+    margin: 10%;
+}
+
+.Skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    margin: 70px auto;
+
+}
+
+.Skill-name{
+    font-size: 17px;
+    font-weight: 700;
+    color: #2a2b3d;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.Skill-bar{
+    height: 14px;
+    background: #808080;
+    border-radius: 3px;
+}
+
+.Skill-per{
+    height: 14px;
+    background: #34B0BE;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.Skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 2px 4px;
+    background: #03051C;
+    border-radius: 4px;
+    font-size: 17px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+
+}
+
+.Skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #007c88;
+    top: -14px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 3px;
+    
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.Mis-proyectos{
+   gap: 5rem;
+    display: flex;
+    margin: 100px;
+    overflow-x: scroll;
+}
+
+.Contacto{
+    
+    gap: 8 rem;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.Contacto img{
+    width: 40%;
+}
+
+.Whatsapp{
+    border: 25px solid #808080;
+    background-color: #ffff;
+    width: 18rem;
+    margin-left: 30rem;
+    
+    
+}
+
+.Email{
+    border: 25px solid #808080;
+    background-color: #ffff;
+    width: 18rem;
+    margin-left: 50rem;
+    
+
+}
+
+footer{
+    background-color: #808080;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    color: #2A2B3D;
+    font-size: 14px;
+}
+
+@media screen and (max-width : 400px) {
+    .ul{
+        font-size: 20px;
+    }
+    fondo{
+        size: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fondo{
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 33px;
+        margin-top: 64px;
+    }
+
+    .navbar{
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        top: 0;
+        z-index: 100;
+    }
+
+    .present h2{
+        margin-left: -3rem;
+        font-size: 42px;
+    }
+
+    .present h1{
+        font-size: 60px;
+        margin-left: -26rem;
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+    }
+
+    h2.junior{
+        font-size: 22px;
+        margin-left: -3rem;
+    }
+
+    .circle{
+        height: 500px;
+        width: 500px;
+    }
+
+    .Man img{
+        right: 16%;
+        bottom: 50px;
+        max-width: 110%;
+    }
+    .Man{
+        bottom: 50px;
+    }
+
+    .Cabeza{
+        right: -5.5rem;
+        bottom: 16rem;
+    }
+
+    .Icons{
+        width: 23%;
+        padding: 6px;
+        border: 1px;
+    }
+
+    .Icons img{
+        width: 60%;
+    }
+
+    .Cabezado{
+        gap: 5rem;
+        width: 40rem;
+        right: -15%;
+        bottom: -90px;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        top: 8vh;
+        background: #ffff;
+        width: 120%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        line-height: 100px;
+        transition: all 0.5s ease;
+        transform: translateX(-110%);
+    }
+    .menu.active{
+        transform: translateX(-86px);
+        z-index: 1;
+        gap: 2rem;
+        top: 4rem;
+    }
+
+    .Sobre-Mi {
+        margin-top: 26%;
+    }
+
+    .Sobre-Mi p{
+        margin-top: 7%;
+        margin-bottom: 9%;
+    }
+    .Whatsapp{
+        margin-left: 3rem;
+    }
+
+    .Email{
+        margin-left: 22rem;
+    }
+
+    .footer{
+
+    }
+
+}
